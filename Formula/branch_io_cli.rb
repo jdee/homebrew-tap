@@ -5,10 +5,8 @@
 class BranchIoCli < Formula
   desc "Branch.io command line interface"
   homepage "https://github.com/BranchMetrics/branch_io_cli"
-  # url "https://github.com/BranchMetrics/branch_io_cli/archive/v0.12.7.tar.gz"
-  url "file:///Users/jdee/github/BranchMetrics/branch_io_cli-0.13.0.pre.1.tar.gz"
-  # sha256 "9264044d678db7336d0c7b0f8d2456dc9e3ba4f416c8f358a2587d7844af8a98"
-  sha256 "991f7517bd918add904a0dd5e41a0ab874d622690c73c41b10ddde890bcad152"
+  url "https://github.com/BranchMetrics/branch_io_cli/archive/v0.12.8.tar.gz"
+  sha256 "bdee050c117dc2e66d39578e61f3eeca130efd3a4488149c25c7d3bfac6fe549"
 
   def install
     ENV["GEM_HOME"] = libexec
