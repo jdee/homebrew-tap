@@ -9,7 +9,7 @@ class ReactNativeUtil < Formula
   sha256 "329ad2bea5e198fd30a69ec684d221a3b9833d1b7c0bd8159e1df9c4b3e2e38d"
 
   # Minimum required CocoaPods version.
-  depends_on cocoapods: "1.6.0"
+  depends_on "cocoapods" => "1.6.0"
 
   def install
     ENV["GEM_HOME"] = libexec
