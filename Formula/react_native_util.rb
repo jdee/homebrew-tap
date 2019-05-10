@@ -8,6 +8,8 @@ class ReactNativeUtil < Formula
   url "https://github.com/jdee/react_native_util/archive/v0.1.1.tar.gz"
   sha256 "329ad2bea5e198fd30a69ec684d221a3b9833d1b7c0bd8159e1df9c4b3e2e38d"
 
+  depends_on "cocoapods"
+
   def install
     ENV["GEM_HOME"] = libexec
     system "gem", "build", "react_native_util.gemspec"
