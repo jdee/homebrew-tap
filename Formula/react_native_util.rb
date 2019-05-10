@@ -5,8 +5,8 @@
 class ReactNativeUtil < Formula
   desc "Community utility CLI for React Native projects"
   homepage "https://github.com/jdee/react_native_util"
-  url "https://github.com/jdee/react_native_util/archive/v0.1.0.tar.gz"
-  sha256 "a72431affe744d86dce79696ae8ff8afa225b95a2f5c8811b1a62e7b81d60e5e"
+  url "https://github.com/jdee/react_native_util/archive/v0.1.1.tar.gz"
+  sha256 "329ad2bea5e198fd30a69ec684d221a3b9833d1b7c0bd8159e1df9c4b3e2e38d"
 
   def install
     ENV["GEM_HOME"] = libexec
