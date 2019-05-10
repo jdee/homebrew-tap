@@ -5,11 +5,13 @@
 class ReactNativeUtil < Formula
   desc "Community utility CLI for React Native projects"
   homepage "https://github.com/jdee/react_native_util"
-  url "https://github.com/jdee/react_native_util/archive/v0.1.1.tar.gz"
-  sha256 "329ad2bea5e198fd30a69ec684d221a3b9833d1b7c0bd8159e1df9c4b3e2e38d"
+  url "https://github.com/jdee/react_native_util/archive/v0.1.2.tar.gz"
+  sha256 "e00338fea3af3f6256d881219ae7ac1cdb0b81578d8dfa9154fcdc86db7f7a5f"
 
   # Minimum required CocoaPods version.
   depends_on "cocoapods" => "1.6.0"
+  # Ensure yarn is present.
+  depends_on "yarn" => "1.0"
 
   def install
     ENV["GEM_HOME"] = libexec
