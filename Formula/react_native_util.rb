@@ -25,7 +25,7 @@ class ReactNativeUtil < Formula
   end
 
   bottle do
-    root_url "https://github.com/jdee/homebrew-tap/tree/master/Formula"
+    root_url "https://raw.githubusercontent.com/jdee/homebrew-tap/master/Formula"
     cellar :any_skip_relocation
     sha256 "e29df425db2c0fffca9af6a31577a58727a65f812eb51fc78f2b961249edb3cd" => :mojave
   end
