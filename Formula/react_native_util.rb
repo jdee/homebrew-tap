@@ -24,6 +24,12 @@ class ReactNativeUtil < Formula
     bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"], :REACT_NATIVE_UTIL_INSTALLED_FROM_HOMEBREW => "true")
   end
 
+  bottle do
+    root_url "https://github.com/jdee/homebrew-tap/tree/master"
+    cellar :any_skip_relocation
+    sha256 "e29df425db2c0fffca9af6a31577a58727a65f812eb51fc78f2b961249edb3cd" => :mojave
+  end
+
   test do
     system "#{bin}/rn", "-h"
   end
