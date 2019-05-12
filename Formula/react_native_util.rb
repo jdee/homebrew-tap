@@ -12,7 +12,9 @@ class ReactNativeUtil < Formula
   depends_on "cocoapods" => "1.6.0"
   # Ensure the rest of the toolchain is present.
   depends_on "yarn" => "1.0"
-  depends_on "react-native-cli" => "2.0"
+  # brew install jdee/tap/react_native_util --with-react-native-cli to install
+  # the RN CLI as well. This is not the default.
+  depends_on "react-native-cli" => ["2.0", :optional]
 
   def install
     ENV["GEM_HOME"] = libexec
