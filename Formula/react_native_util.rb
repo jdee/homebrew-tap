@@ -5,8 +5,8 @@
 class ReactNativeUtil < Formula
   desc "Community utility CLI for React Native projects"
   homepage "https://github.com/jdee/react_native_util"
-  url "https://github.com/jdee/react_native_util/archive/v0.2.0.tar.gz"
-  sha256 "29212c72420a04a464859811fa0b2d6dd1ec7031cdea13b83a7f45be25f88c58"
+  url "https://github.com/jdee/react_native_util/archive/v0.2.1.tar.gz"
+  sha256 "99357aaebf981a9835bc649f786439ef89b7d27573ae6fe872366df04d0e0204"
 
   # Minimum required CocoaPods version.
   depends_on "cocoapods" => "1.6.0"
