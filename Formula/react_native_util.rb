@@ -3,9 +3,11 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class ReactNativeUtil < Formula
+  VERSION = '0.3.0'
+
   desc "Community utility CLI for React Native projects"
   homepage "https://github.com/jdee/react_native_util"
-  url "https://github.com/jdee/react_native_util/archive/v0.3.0.tar.gz"
+  url "https://github.com/jdee/react_native_util/archive/v#{VERSION}.tar.gz"
   sha256 "abfdf521a1ff7121bedddc841ef4df85212b44b829bafd749de1d67f04d48684"
 
   # Minimum required CocoaPods version.
@@ -25,7 +27,7 @@ class ReactNativeUtil < Formula
   end
 
   bottle do
-    root_url "https://github.com/jdee/homebrew-tap/releases/download/react_native_util-v0.3.0"
+    root_url "https://github.com/jdee/homebrew-tap/releases/download/react_native_util-v#{VERSION}"
     cellar :any_skip_relocation
     sha256 "e29df425db2c0fffca9af6a31577a58727a65f812eb51fc78f2b961249edb3cd" => :mojave
   end
