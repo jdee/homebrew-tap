@@ -3,12 +3,12 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class ReactNativeUtil < Formula
-  VERSION = '0.3.0'
+  VERSION = '0.3.1'
 
   desc "Community utility CLI for React Native projects"
   homepage "https://github.com/jdee/react_native_util"
   url "https://github.com/jdee/react_native_util/archive/v#{VERSION}.tar.gz"
-  sha256 "abfdf521a1ff7121bedddc841ef4df85212b44b829bafd749de1d67f04d48684"
+  sha256 "bf18c5bc591a99bc3d7a252c8fec13b2bc86f5346b73b350c7282a139573e05e"
 
   # Minimum required CocoaPods version.
   depends_on "cocoapods" => "1.6.0"
