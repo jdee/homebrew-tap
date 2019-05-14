@@ -29,7 +29,7 @@ class ReactNativeUtil < Formula
   bottle do
     root_url "https://github.com/jdee/homebrew-tap/releases/download/react_native_util-v#{VERSION}"
     cellar :any_skip_relocation
-    sha256 "b551b2f757005f0f73a667946138fe0112e6ba473cebb2b553f15895eead021d" => :mojave
+    sha256 "5f539f5fa3dcf1a68f27c596069aebc2becaba9fa99e6647a53d3a156913583f" => :mojave
   end
 
   test do
