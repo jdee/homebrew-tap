@@ -10,7 +10,7 @@ See https://github.com/BranchMetrics/branch_io_cli.
 
 ## react_native_util
 
-`brew install react_native_util`
+`brew install react_native_util`  
 `brew install react_native_util --with-react-native-cli`
 
 See https://github.com/jdee/react_native_util.
