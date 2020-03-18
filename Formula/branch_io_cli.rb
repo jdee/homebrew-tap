@@ -22,6 +22,7 @@ class BranchIoCli < Formula
     root_url "https://github.com/jdee/homebrew-tap/releases/download/branch_io_cli-v#{VERSION}"
     cellar :any_skip_relocation
     sha256 "c0f3564cec355b1ad105b85f2e2dd387e85309408a01f22a609ea8442f81551b" => :mojave
+    sha256 "dd2f33688ec5f79e1c0020f2c146af5c558b3cea89a79d151ad890d15416c4b9" => :catalina
   end
 
   test do
